@@ -116,7 +116,7 @@ This starts PostgreSQL and the FastAPI app together.
 }
 ```
 
-## Important notes before publishing
+## Important notes 
 
 - This repo is a strong MVP, not a hardened production system.
 - `Base.metadata.create_all()` is used for convenience. Replace it with Alembic migrations before production.
